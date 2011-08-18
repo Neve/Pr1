@@ -1,0 +1,35 @@
+
+
+Started GET "/pr1/say/hello" for 192.168.217.1 at Wed Aug 17 14:24:20 +0300 2011
+
+ActionController::RoutingError (No route matches "/pr1/say/hello"):
+  
+
+
+
+Started GET "/pr1/rails/info/properties" for 192.168.217.1 at Wed Aug 17 14:24:37 +0300 2011
+
+ActionController::RoutingError (No route matches "/pr1/rails/info/properties"):
+  
+
+
+
+Started GET "/pr1/rails/info/properties" for 192.168.217.1 at Wed Aug 17 14:25:23 +0300 2011
+
+ActionController::RoutingError (No route matches "/pr1/rails/info/properties"):
+  
+
+
+
+Started GET "/rails/info/properties" for 192.168.217.1 at Wed Aug 17 15:02:23 +0300 2011
+
+ActionController::RoutingError (No route matches "/rails/info/properties"):
+  
+
+
+
+Started GET "/rails/info/properties" for 192.168.217.1 at Wed Aug 17 15:02:28 +0300 2011
+
+ActionController::RoutingError (No route matches "/rails/info/properties"):
+  
+
