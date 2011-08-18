@@ -5,8 +5,10 @@
 Статика Say <a href="/pr1/say/hello">Hello</a>!
 </p>
 
-<% 3 times do %>
-    <% end %>
-<p>
-  <%= link_to "Hello", say_hello_path %>
+<% 3.times do %>
+   <p>
+  <%= link_to "А это динамика на Hello", say_hello_path %>
 </p>
+
+    <% end %>
+
