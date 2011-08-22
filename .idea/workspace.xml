@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d3dfd1-b76e-4491-a7b3-1939bd935cfb" name="Default" comment="">
-      <change type="DELETED" beforePath="R:\pr1\app\views\say\old.rhtml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pr1.iml" afterPath="$PROJECT_DIR$/.idea/pr1.iml" />
@@ -11,12 +10,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/say_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/say_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/say/goodbye.html.erb" afterPath="$PROJECT_DIR$/app/views/say/goodbye.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/say/hello.html.erb" afterPath="$PROJECT_DIR$/app/views/say/hello.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/say/playtime.rhtml" afterPath="$PROJECT_DIR$/app/views/say/playtime.rhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/rails" afterPath="$PROJECT_DIR$/script/rails" />
     </list>
@@ -54,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="say_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="say_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/say_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="17" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="0.4722222">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playtime.rhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="playtime.rhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/say/playtime.rhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.45945945">
+            <state line="18" column="4" selection-start="317" selection-end="317" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
@@ -109,8 +105,8 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/say/hello.html.erb" />
         <option value="$PROJECT_DIR$/app/views/say/goodbye.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/say_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/say/playtime.rhtml" />
+        <option value="$PROJECT_DIR$/app/controllers/say_controller.rb" />
       </list>
     </option>
   </component>
@@ -517,7 +513,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="222" width="1222" height="848" extended-state="0" />
+    <frame x="28" y="266" width="1222" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -617,16 +613,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/say_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/say/playtime.rhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+        <state line="18" column="4" selection-start="317" selection-end="317" vertical-scroll-proportion="-11.769231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/say/playtime.rhtml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/say_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.45945945">
+        <state line="17" column="2" selection-start="276" selection-end="276" vertical-scroll-proportion="0.4722222">
           <folding />
         </state>
       </provider>

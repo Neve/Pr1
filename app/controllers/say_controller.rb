@@ -5,11 +5,15 @@ class SayController < ApplicationController
   def goodbye
   end
 
-   def playtime
+  def playtime
   @files = Dir.glob('*')
      return @files
+  end
+
+  def method1 (string)
+   result = "Строка сгенерированная методом + #{string.capitalize}"  +string
+
+    return result
    end
-
-
 
 end
