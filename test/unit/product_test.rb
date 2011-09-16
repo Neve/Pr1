@@ -2,6 +2,16 @@ require 'test_helper'
 
 class ProductTest < ActiveSupport::TestCase
 
+  test "имя товара должно быть уникальным - i18n" do
+    product = Product.new(
+        :title       => products(:ruby).title,
+        :description => "yyy",
+        :price       => 1,
+        :image_url   => "fred.gif")
+    assert !product.save
+    assert_equal I18n.translate('activerecord.errors.messages.taken'),
+                 product.errors[:title].join('; ')
+  end
   test "поля товара не должны быть пустыми" do
     product = Product.new
     assert product.invalid?

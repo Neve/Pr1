@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 
+
+ruby:
+   title: Тестовая книжка
+   description: Фикщенная запись в базу для тестов
+   image_url: images/rails.png
+   price: 9999.0
