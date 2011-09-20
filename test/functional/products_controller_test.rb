@@ -24,16 +24,17 @@ class ProductsControllerTest < ActionController::TestCase
 
   test "should create product" do
     assert_difference('Product.count') do
-      post :create, :product => @product.attributes
-    end
+     # post :create, :product => @product.attributes
+       post :create, :product => @update
+  end
 
-    assert_redirected_to product_path(assigns(:product))
+     assert_redirected_to product_path(assigns(:product))
   end
 
   test "should show product" do
     get :show, :id => @product.to_param
     post :create, :product => @update
-    assert_response :success
+   assert_response  :redirect
   end
 
   test "should get edit" do
@@ -42,9 +43,10 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   test "should update product" do
-    put :update, :id => @product.to_param, :product => @product.attributes
-    assert_redirected_to product_path(assigns(:product))
+   # put :update, :id => @product.to_param, :product => @product.attributes
     put :update, :id => @product.to_param, :product => @update
+    assert_redirected_to product_path(assigns(:product))
+
   end
 
   test "should destroy product" do

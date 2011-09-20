@@ -8,4 +8,6 @@ class Product < ActiveRecord::Base
   :with => %r{\.(gif|jpg|png|jpeg)$}i,
   :message => 'Должна быть GIF, JPG  или PNG картинка.'  }
 
+  #store backend
+  default_scope :order => 'title'
 end
